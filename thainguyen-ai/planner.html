@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lập kế hoạch du lịch - Thainguyen-AImazing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lập kế hoạch du lịch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="chatbot.html">Trợ lý AI</a></li>
+                <li><a href="vision.html">Nhận diện hình ảnh</a></li>
+                <li><a href="planner.html">Lập kế hoạch du lịch</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Lên kế hoạch cho chuyến đi của bạn</h2>
+            <form id="planner-form">
+                <label for="destination">Điểm đến:</label>
+                <input type="text" id="destination" name="destination" required>
+                
+                <label for="date">Ngày đi:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="duration">Thời gian (ngày):</label>
+                <input type="number" id="duration" name="duration" required>
+                
+                <button type="submit">Gợi ý lịch trình</button>
+            </form>
+            <div id="suggestions"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Thainguyen-AImazing. Đã đăng ký bản quyền.</p>
+    </footer>
+    <script src="js/planner.js"></script>
+</body>
+</html>
