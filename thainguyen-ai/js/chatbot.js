@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
             method: "POST",
             headers: {
                 "Authorization": "Bearer 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",
-                "HTTP-Referer": "http://localhost:5500", // Đổi thành domain thật nếu deploy
+                "HTTP-Referer": "https://duydzgithub.github.io/Thai_nguyen_AI/", // Đổi thành domain thật nếu deploy
                 "X-Title": "Thainguyen-AImazing",
                 "Content-Type": "application/json"
             },
